@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>allxtattoo · Tatuador en Lanzarote · Black &amp; grey</title>
+<meta name="description" content="Tatuador en Lanzarote. Black and grey, retrato e ilustración. Pide tu cita por WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>
+tailwind.config={theme:{extend:{colors:{ink:'#0a0a0a',coal:'#141414',bone:'#ebe6da',ash:'#8f8c85',blood:'#b3262d'},fontFamily:{display:['"Rozha One"','Georgia','serif'],serif:['"Instrument Serif"','Georgia','serif'],sans:['"Hanken Grotesk"','system-ui','sans-serif']}}}}
+</script>
+<style>
+:root{--e:cubic-bezier(.23,1,.32,1);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{background:#0a0a0a;color:#ebe6da;-webkit-font-smoothing:antialiased}
+h1,h2,h3{text-wrap:balance}
+:focus-visible{outline:2px solid #ebe6da;outline-offset:3px}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:60;opacity:.07;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E")}
+.btn{transition:background .2s var(--e),color .2s var(--e),transform .16s var(--e),border-color .2s var(--e)}
+.btn:active{transform:scale(.97)}
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s var(--e),transform .7s var(--e)}
+.rv.in{opacity:1;transform:none}
+.ring{animation:rot 24s linear infinite}
+@keyframes rot{to{transform:rotate(360deg)}}
+.mq{display:inline-block;white-space:nowrap;animation:mq 34s linear infinite}
+@keyframes mq{to{transform:translateX(-50%)}}
+.outline{color:transparent;-webkit-text-stroke:1px rgba(235,230,218,.28)}
+/* gallery */
+.tile{position:relative;overflow:hidden;border-radius:4px;background:#141414;break-inside:avoid;margin-bottom:12px;cursor:pointer}
+.tile .ph,.tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s var(--e),filter .6s var(--e)}
+.tile .ph{background:radial-gradient(circle at 30% 25%,rgba(235,230,218,.16),transparent 55%),radial-gradient(#ebe6da 1.1px,transparent 1.6px) 0 0/var(--s) var(--s);background-color:#141414;mask-image:linear-gradient(var(--a),#000 5%,transparent 95%);-webkit-mask-image:linear-gradient(var(--a),#000 5%,transparent 95%);opacity:.5}
+.tile::before{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(10,10,10,.92),transparent 55%);z-index:1;opacity:.55;transition:opacity .35s var(--e)}
+.tile .cap{position:absolute;left:14px;right:14px;bottom:12px;z-index:2;transform:translateY(8px);transition:transform .4s var(--e)}
+.tile .cap b{display:block;font:italic 1.35rem/1.1 "Instrument Serif",serif}
+.tile .cap span{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:#8f8c85}
+@media(hover:hover){.tile:hover img,.tile:hover .ph{transform:scale(1.06)}.tile:hover::before{opacity:1}.tile:hover .cap{transform:none}}
+.tile.show{animation:pop .45s var(--e) backwards}
+@keyframes pop{from{opacity:0;transform:scale(.96)}}
+.f.on{background:#ebe6da;color:#0a0a0a;border-color:#ebe6da}
+/* faq */
+.fa{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s var(--e)}
+.fa>div{overflow:hidden}
+.q[aria-expanded=true]+.fa{grid-template-rows:1fr}
+.q[aria-expanded=true] i{transform:rotate(45deg)}
+.q i{transition:transform .3s var(--e);font-style:normal}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}.ring,.mq{animation:none}.tile.show{animation:none}.fa,.btn,.tile *{transition:none!important}}
+</style>
+</head>
+<body class="font-sans text-[17px] leading-relaxed overflow-x-hidden">
+
+<nav class="fixed inset-x-0 top-0 z-50 bg-ink/80 backdrop-blur-md border-b border-white/10" style="top:env(safe-area-inset-top,0px)">
+  <div class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
+    <a href="#top" class="font-display text-2xl tracking-tight">allx<span class="text-blood">tattoo</span></a>
+    <div class="hidden md:flex gap-8 text-sm text-ash"><a class="hover:text-bone transition-colors" href="#trabajos">Trabajos</a><a class="hover:text-bone transition-colors" href="#estilos">Estilos</a><a class="hover:text-bone transition-colors" href="#proceso">Proceso</a><a class="hover:text-bone transition-colors" href="#faq">Dudas</a></div>
+    <a data-wa target="_blank" rel="noopener" class="btn bg-bone text-ink text-sm font-bold px-5 py-2.5 rounded-full hover:bg-white">Pedir cita</a>
+  </div>
+</nav>
+
+<header id="top" class="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
+  <div class="absolute -right-24 top-1/4 w-[560px] h-[560px] rounded-full opacity-40" style="background:radial-gradient(#ebe6da 1.2px,transparent 1.8px) 0 0/10px 10px;mask-image:radial-gradient(circle,#000 20%,transparent 68%);-webkit-mask-image:radial-gradient(circle,#000 20%,transparent 68%)"></div>
+  <div class="relative max-w-6xl mx-auto px-5 w-full">
+    <p class="text-xs tracking-[.3em] uppercase text-ash mb-6 flex items-center gap-3"><span class="w-10 h-px bg-blood"></span>Tatuador · Lanzarote</p>
+    <h1 class="font-display text-[clamp(3.4rem,11vw,9.5rem)] leading-[.92] tracking-tight">Piel, sombra<br>y <em class="font-serif italic font-normal text-bone/90">memoria.</em></h1>
+    <p class="mt-8 max-w-xl text-lg text-bone/75">Black and grey, retrato e ilustración. Cada pieza se diseña a medida, contigo, en <span class="text-bone">Abora Tattoo Gallery</span>, Lanzarote.</p>
+    <div class="mt-10 flex flex-wrap gap-4">
+      <a data-wa target="_blank" rel="noopener" class="btn bg-blood text-white font-bold px-7 py-4 rounded-full hover:bg-[#c92f36]">Reservar cita por WhatsApp</a>
+      <a data-ig target="_blank" rel="noopener" class="btn border border-bone/40 px-7 py-4 rounded-full font-bold hover:bg-bone hover:text-ink">Ver Instagram</a>
+    </div>
+    <dl class="mt-14 flex flex-wrap gap-x-12 gap-y-4 text-sm">
+      <div><dt class="text-ash uppercase tracking-widest text-[11px]">Estilo</dt><dd class="font-serif italic text-2xl">Black &amp; grey</dd></div>
+      <div><dt class="text-ash uppercase tracking-widest text-[11px]">Especialidad</dt><dd class="font-serif italic text-2xl">Retrato e ilustración</dd></div>
+      <div><dt class="text-ash uppercase tracking-widest text-[11px]">Estudio</dt><dd class="font-serif italic text-2xl">Lanzarote</dd></div>
+    </dl>
+  </div>
+  <div class="hidden md:block absolute right-10 bottom-10 w-36 h-36" aria-hidden="true">
+    <svg class="ring w-full h-full" viewBox="0 0 200 200"><defs><path id="c" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs><text fill="#ebe6da" font-size="14" letter-spacing="3.5" font-family="Hanken Grotesk"><textPath href="#c">PIDE TU CITA · BLACK &amp; GREY · LANZAROTE ·</textPath></text></svg>
+  </div>
+</header>
+
+<div class="border-y border-white/10 overflow-hidden py-5" aria-hidden="true"><div class="mq font-display text-4xl md:text-6xl outline uppercase">Retrato <span class="text-blood">✦</span> Lettering <span class="text-blood">✦</span> Black &amp; grey <span class="text-blood">✦</span> Ilustración <span class="text-blood">✦</span> Realismo <span class="text-blood">✦</span> Retrato <span class="text-blood">✦</span> Lettering <span class="text-blood">✦</span> Black &amp; grey <span class="text-blood">✦</span> Ilustración <span class="text-blood">✦</span> Realismo <span class="text-blood">✦</span></div></div>
+
+<section id="trabajos" class="py-24 md:py-32">
+  <div class="max-w-6xl mx-auto px-5">
+    <div class="flex flex-wrap items-end justify-between gap-6 mb-10 rv">
+      <h2 class="font-display text-5xl md:text-7xl leading-none">Trabajos</h2>
+      <div class="flex flex-wrap gap-2 text-sm" id="filters"></div>
+    </div>
+    <div id="grid" class="columns-2 md:columns-3 gap-3 rv"></div>
+    <p class="mt-6 text-sm text-ash">Piezas de ejemplo: aquí irán sus fotos reales del Instagram.</p>
+  </div>
+</section>
+
+<section id="estilos" class="py-24 md:py-32 bg-coal">
+  <div class="max-w-6xl mx-auto px-5 grid md:grid-cols-[.8fr_1.2fr] gap-12">
+    <div class="rv"><p class="text-xs tracking-[.3em] uppercase text-ash mb-4">Especialidades</p><h2 class="font-display text-5xl md:text-6xl leading-none">Lo que mejor<br>se me da</h2></div>
+    <ul class="divide-y divide-white/10 border-y border-white/10 rv">
+      <li class="group py-7 flex gap-6 items-baseline"><span class="text-blood font-bold text-sm">01</span><div><h3 class="font-serif italic text-4xl transition-transform duration-300 group-hover:translate-x-2" style="transition-timing-function:var(--e)">Black &amp; grey</h3><p class="text-bone/65 mt-2 max-w-md">Sombras suaves y contraste alto. Piezas con volumen que envejecen bien.</p></div></li>
+      <li class="group py-7 flex gap-6 items-baseline"><span class="text-blood font-bold text-sm">02</span><div><h3 class="font-serif italic text-4xl transition-transform duration-300 group-hover:translate-x-2" style="transition-timing-function:var(--e)">Retrato realista</h3><p class="text-bone/65 mt-2 max-w-md">Personas, mascotas y esculturas con el detalle que las hace reconocibles.</p></div></li>
+      <li class="group py-7 flex gap-6 items-baseline"><span class="text-blood font-bold text-sm">03</span><div><h3 class="font-serif italic text-4xl transition-transform duration-300 group-hover:translate-x-2" style="transition-timing-function:var(--e)">Lettering</h3><p class="text-bone/65 mt-2 max-w-md">Nombres y frases con una caligrafía pensada para tu piel y tu zona.</p></div></li>
+      <li class="group py-7 flex gap-6 items-baseline"><span class="text-blood font-bold text-sm">04</span><div><h3 class="font-serif italic text-4xl transition-transform duration-300 group-hover:translate-x-2" style="transition-timing-function:var(--e)">Ilustración</h3><p class="text-bone/65 mt-2 max-w-md">Animales, naturaleza y composiciones únicas, dibujadas desde cero.</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<section id="proceso" class="py-24 md:py-32">
+  <div class="max-w-6xl mx-auto px-5">
+    <h2 class="font-display text-5xl md:text-7xl leading-none mb-14 rv">Así se reserva</h2>
+    <div class="grid md:grid-cols-3 gap-px bg-white/10 rv">
+      <div class="bg-ink p-8 md:p-10"><span class="font-display text-7xl outline block mb-6">01</span><h3 class="font-serif italic text-3xl mb-3">Idea</h3><p class="text-bone/65">Cuéntame qué quieres tatuarte, dónde y qué significa. Puedes mandar referencias por WhatsApp.</p></div>
+      <div class="bg-ink p-8 md:p-10"><span class="font-display text-7xl outline block mb-6">02</span><h3 class="font-serif italic text-3xl mb-3">Diseño a medida</h3><p class="text-bone/65">Preparo el diseño adaptado a tu anatomía y a mi estilo. Lo ajustamos juntos antes de empezar.</p></div>
+      <div class="bg-ink p-8 md:p-10"><span class="font-display text-7xl outline block mb-6">03</span><h3 class="font-serif italic text-3xl mb-3">Sesión</h3><p class="text-bone/65">El día del tatuaje, en Lanzarote. Te explico los cuidados para que cicatrice bien.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="py-24 md:py-32 bg-coal">
+  <div class="max-w-3xl mx-auto px-5">
+    <h2 class="font-display text-5xl md:text-6xl leading-none mb-12 rv">Dudas frecuentes</h2>
+    <div id="faqs" class="border-t border-white/10 rv"></div>
+    <p class="mt-6 text-xs text-ash">Textos de ejemplo: se ajustan a su forma real de trabajar.</p>
+  </div>
+</section>
+
+<section class="relative py-28 md:py-40 text-center overflow-hidden">
+  <div class="max-w-4xl mx-auto px-5 rv">
+    <h2 class="font-display text-[clamp(3rem,9vw,7.5rem)] leading-[.95]">Tu próximo<br><em class="font-serif italic font-normal">tatuaje</em> empieza aquí</h2>
+    <p class="mt-6 text-bone/70 max-w-md mx-auto">Escríbeme con tu idea y te cuento fechas y presupuesto.</p>
+    <div class="mt-10 flex flex-wrap gap-4 justify-center">
+      <a data-wa target="_blank" rel="noopener" class="btn bg-blood text-white font-bold px-8 py-4 rounded-full hover:bg-[#c92f36]">Escribir por WhatsApp</a>
+      <a data-ig target="_blank" rel="noopener" class="btn border border-bone/40 px-8 py-4 rounded-full font-bold hover:bg-bone hover:text-ink">@allxtattoo</a>
+    </div>
+  </div>
+</section>
+
+<footer class="border-t border-white/10 py-8 pb-24 md:pb-8 text-sm text-ash">
+  <div class="max-w-6xl mx-auto px-5 flex flex-wrap justify-between gap-3"><span class="font-display text-bone text-lg">allx<span class="text-blood">tattoo</span></span><span>Lanzarote · Abora Tattoo Gallery</span><span>Propuesta de diseño web</span></div>
+</footer>
+<a data-wa target="_blank" rel="noopener" class="btn md:hidden fixed left-4 right-4 z-40 bg-bone text-ink text-center font-bold py-3.5 rounded-full shadow-lg" style="bottom:calc(1rem + env(safe-area-inset-bottom,0px))">Pedir cita por WhatsApp</a>
+
+<script>
+const CFG={wa:'https://wa.me/message/I3XTREZ3G3HVJ1',ig:'https://www.instagram.com/allxtattoo/'};
+/* Sustituye src por la foto real de cada trabajo (ruta o URL). Vacío = tile de ejemplo. */
+const WORKS=[
+{t:'Retrato de mujer',c:'Retrato',r:'4/5',src:''},{t:'Querubín',c:'Ilustración',r:'1/1',src:''},{t:'Lettering en brazo',c:'Lettering',r:'3/4',src:''},
+{t:'Mascota en black & grey',c:'Retrato',r:'4/5',src:''},{t:'Lagarto',c:'Ilustración',r:'1/1',src:''},{t:'Busto clásico',c:'Retrato',r:'3/4',src:''},
+{t:'Palmeras',c:'Naturaleza',r:'4/5',src:''},{t:'Pulpo y cofre',c:'Ilustración',r:'3/4',src:''},{t:'Lirios',c:'Naturaleza',r:'1/1',src:''},
+{t:'Nombre en cursiva',c:'Lettering',r:'4/5',src:''},{t:'Cardo',c:'Naturaleza',r:'3/4',src:''},{t:'Alas',c:'Ilustración',r:'1/1',src:''}];
+const cats=['Todos',...new Set(WORKS.map(w=>w.c))];
+const grid=document.getElementById('grid'),fl=document.getElementById('filters');
+WORKS.forEach((w,i)=>{
+  const d=document.createElement('figure');d.className='tile show';d.dataset.c=w.c;d.style.aspectRatio=w.r;
+  const ang=[160,200,120,230,140,180][i%6],s=[9,11,8,12,10,7][i%6];
+  d.innerHTML=(w.src?'<img loading="lazy" alt="'+w.t+'" src="'+w.src+'">':'<div class="ph" style="--a:'+ang+'deg;--s:'+s+'px"></div>')+'<figcaption class="cap"><b>'+w.t+'</b><span>'+w.c+'</span></figcaption>';
+  grid.appendChild(d);
+});
+cats.forEach((c,i)=>{
+  const b=document.createElement('button');b.className='f btn border border-white/25 px-4 py-2 rounded-full'+(i?'':' on');b.textContent=c;
+  b.onclick=()=>{fl.querySelectorAll('.f').forEach(x=>x.classList.toggle('on',x===b));
+    grid.querySelectorAll('.tile').forEach(t=>{const ok=c==='Todos'||t.dataset.c===c;t.style.display=ok?'':'none';t.classList.remove('show');if(ok){void t.offsetWidth;t.classList.add('show')}})};
+  fl.appendChild(b);
+});
+const FAQ=[['¿Cómo es la higiene en el estudio?','Trabajo con material estéril de un solo uso, superficies protegidas y tintas homologadas. Todo se abre delante de ti.'],
+['¿Cómo cuido el tatuaje después?','Lavado suave con jabón neutro, crema fina cicatrizante, sin sol, mar ni piscina durante las primeras semanas, y sin rascarlo. Te lo explico también por escrito.'],
+['¿Cuánto cuesta un tatuaje?','Depende del tamaño, el detalle y la zona. Cuando vea tu idea te paso un presupuesto cerrado. Para reservar fecha puede pedirse un depósito.'],
+['¿Puedes cubrir o retocar un tatuaje antiguo?','Mándame una foto por WhatsApp y valoro si se puede cubrir, rehacer o retocar.']];
+const fq=document.getElementById('faqs');
+FAQ.forEach(([q,a])=>{const w=document.createElement('div');w.className='border-b border-white/10';
+  w.innerHTML='<button class="q w-full flex justify-between items-center gap-6 py-6 text-left font-serif italic text-2xl md:text-3xl" aria-expanded="false"><span>'+q+'</span><i class="text-3xl text-blood">+</i></button><div class="fa"><div><p class="pb-6 text-bone/70 max-w-xl">'+a+'</p></div></div>';
+  w.querySelector('.q').onclick=e=>{const b=e.currentTarget;b.setAttribute('aria-expanded',b.getAttribute('aria-expanded')!=='true')};fq.appendChild(w)});
+document.querySelectorAll('[data-wa]').forEach(a=>a.href=CFG.wa);
+document.querySelectorAll('[data-ig]').forEach(a=>a.href=CFG.ig);
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
